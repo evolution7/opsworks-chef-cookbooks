@@ -9,6 +9,3 @@ parameters:
     mailer_transport: smtp
     mailer_host: email-smtp.us-east-1.amazonaws.com
     database_path: null
-<% @parameters[@application.to_s][:parameters].sort.each do | param_value | %> 
-    <%= param_value %> 
-<% end %>
