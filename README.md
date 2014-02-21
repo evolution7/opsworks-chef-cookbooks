@@ -1,11 +1,11 @@
-# AWS OpstWorks PHP Cookbooks. 
+# AWS OpsWorks PHP Cookbooks. 
 
 # Summary
-> "OpsWorks is a DevOps solution for managing the coplete application lifecycle, 
+> "OpsWorks is a DevOps solution for managing the complete application lifecycle, 
 > including resource provisioning, configuration management, applcation deployment 
 > software updates, monitori9ng and access cotrol."
 
-This repository contains a small collection of recipes to help setup PHP application in OpsWorks.
+This repository contains a small collection of recipes to help set up PHP application in OpsWorks.
 Currently two PHP frameworks are supported: [FuelPHP](http://fuelphp.com) and [Symfony 2.x](http://symfony.com).
 
 Some of the cookbooks functionality include:
@@ -22,7 +22,7 @@ Some of the cookbooks functionality include:
 - Adwords authentication configuration for PHP SDK. 
 
 
-#Requirements
+# Requirements
 * Ubuntu Instances.
 * Apache2.
 * mod_env must be enabled. 
@@ -31,7 +31,7 @@ Some of the cookbooks functionality include:
 0.5.0
 
 # Credits
-Some parts of this code where taken from the [ace-cookbooks opsworks_app_environment](https://github.com/ace-cookbooks/opsworks_app_environment). Also see [this](https://forums.aws.amazon.com/thread.jspa?threadID=118107).
+Some parts of this code were taken from the [ace-cookbooks opsworks_app_environment](https://github.com/ace-cookbooks/opsworks_app_environment). Also see [this](https://forums.aws.amazon.com/thread.jspa?threadID=118107).
 
 # Installation
 - In your OpsWorks stack settings enable **"Use custom Chef Cookbooks"**
@@ -248,7 +248,7 @@ environment variables using the [putenv](http://php.net/manual/en/function.puten
 In order to use this file and have the env vars available on every request, the file must be 
 included each time. The recipe can create a unique file for each application in the stack. 
 One configuration values is required to make this recipe work: ```path_to_vars```. 
-This is the path where the ```environment_variales.php``` file will be created. 
+This is the path where the ```environment_variables.php``` file will be created. 
 
 The evironment variables can be set in the custom Chef JSON like this:
 
