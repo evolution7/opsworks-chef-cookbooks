@@ -2,8 +2,8 @@
 
 # Summary
 > "OpsWorks is a DevOps solution for managing the complete application lifecycle, 
-> including resource provisioning, configuration management, applcation deployment 
-> software updates, monitori9ng and access cotrol."
+> including resource provisioning, configuration management, application deployment 
+> software updates, monitoring and access control."
 
 This repository contains a small collection of recipes to help set up PHP application in OpsWorks.
 Currently two PHP frameworks are supported: [FuelPHP](http://fuelphp.com) and [Symfony 2.x](http://symfony.com).
